@@ -424,6 +424,7 @@ GameObject:
   - component: {fileID: 573030037}
   - component: {fileID: 573030041}
   - component: {fileID: 573030042}
+  - component: {fileID: 573030043}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -542,6 +543,23 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &573030043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573030036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18539832b6952244db45ef95060561cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useHover: 1
+  usePrimaryHover: 1
+  defaultColor: {r: 1, g: 0, b: 0, a: 0.878}
+  hoverColor: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
+  primaryHoverColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  smoothColor: 5
 --- !u!1001 &603140762
 Prefab:
   m_ObjectHideFlags: 0
@@ -756,7 +774,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1246,6 +1264,7 @@ GameObject:
   - component: {fileID: 1896036292}
   - component: {fileID: 1896036291}
   - component: {fileID: 1896036296}
+  - component: {fileID: 1896036297}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1364,6 +1383,23 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &1896036297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1896036290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18539832b6952244db45ef95060561cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useHover: 1
+  usePrimaryHover: 1
+  defaultColor: {r: 0, g: 0.8745098, b: 1, a: 1}
+  hoverColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  primaryHoverColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  smoothColor: 5
 --- !u!114 &1932096274 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114876551195846980, guid: 33edf201cbc6fe645ad9078697cd2aea,
